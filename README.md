@@ -2,7 +2,7 @@
 This project focuses on predicting **flight ticket prices** using machine learning.  
 Accurate price prediction can help **airlines** optimize pricing strategies and **customers** find the best time to buy tickets.
 
-## 🎯 Business Objective
+## Business Objective
 Flight ticket pricing is dynamic and influenced by multiple factors such as departure date, duration, airline, and stops.  
 The main objectives of this project are:
 - Understand key factors that affect flight prices.  
