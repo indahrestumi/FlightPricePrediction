@@ -10,7 +10,7 @@ The main objectives of this project are:
 - Provide insights that can support **revenue management** for airlines and **better decision-making** for customers.  
 
 ## Dataset
-- **Source**: Flight Price Dataset (Kaggle / public dataset)  
+- **Source**: Flight Price Dataset (Kaggle) 
 - **Key Features**:
   - Airline   
   - Source & Destination  
@@ -18,8 +18,13 @@ The main objectives of this project are:
   - Duration  
   - Departure & Arrival time  
   - Price (target variable)
-  - 
+    
 ## Methodology
+1. **Data Inspection**
+   - Conducting a comprehensive data inspection by thoroughly examining the dataset’s structure
+   - Verifying the data types of each column to ensure consistency, identifying and handling any missing values to maintain data integrity
+   - Detecting duplicated records to prevent redundancy and potential bias in subsequent analyses
+   - 
 1. **Exploratory Data Analysis (EDA)**  
    - Price distribution & outlier detection  
    - Relationship between features  
@@ -27,8 +32,7 @@ The main objectives of this project are:
 2. **Data Preprocessing**  
    - Handling missing values  
    - Encoding categorical features  
-   - Feature engineering (journey day, month, total travel time)  
-
+  
 3. **Modeling**  
    - Models tested: Linear Regression, Decision Tree, Random Forest, XGBoost & LightBM 
    - Evaluation metrics: MAE, RMSE, R², MAPE  
@@ -46,4 +50,6 @@ The main objectives of this project are:
 - Operational Efficiency: Optimizing load factor to reduce empty seats and increase profitability.
 
 - Customer Loyalty: Leveraging price predictions to personalize promotions, thereby enhancing customer retention and value.
+
+  
 
